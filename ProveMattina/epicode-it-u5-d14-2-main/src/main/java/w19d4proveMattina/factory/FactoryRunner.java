@@ -1,4 +1,4 @@
-package riccardogulin.u5d14.factory;
+package w19d4proveMattina.factory;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

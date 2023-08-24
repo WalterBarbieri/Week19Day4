@@ -1,13 +1,13 @@
-package riccardogulin.u5d14;
+package w19d4proveMattina;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class U5d14Application {
+public class w19d4proveMattinaApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(U5d14Application.class, args);
+		SpringApplication.run(w19d4proveMattinaApp.class, args);
 	}
 
 }
