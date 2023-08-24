@@ -9,4 +9,14 @@ public class Apple {
 	public void addSubscriber(Subscriber subscriber) {
 		this.subscribers.add(subscriber);
 	}
+
+	public void removeSubscriber(Subscriber subscriber) {
+		this.subscribers.remove(subscriber);
+	}
+
+	public void makeAnnouncement(String text) {
+		for (Subscriber subscriber : subscribers) {
+			subscriber.receiveUpdate(text);
+		}
+	}
 }
