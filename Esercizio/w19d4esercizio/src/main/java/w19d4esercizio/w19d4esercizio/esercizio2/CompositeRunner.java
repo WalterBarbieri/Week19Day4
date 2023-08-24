@@ -79,11 +79,19 @@ public class CompositeRunner implements CommandLineRunner {
 
 		book1.setSezioni(sezioni);
 
-		book1.print();
+//		book1.print();
 //		section1.print();
 //		subSection1.print();
 //		subSection2.print();
-		System.out.println("Numero Pagine :" + numeroPagine);
+		System.out.println("Numero Pagine :" + (numeroPagine - 1));
+
+//		Page pagina = book1.getpaginaByNumero(random.nextInt(numeroPagine - 1));
+//		if (pagina != null) {
+//			pagina.print();
+//		} else {
+//			System.out.println("Pagina non trovata");
+//		}
+
 	}
 
 }

@@ -2,9 +2,11 @@ package w19d4esercizio.w19d4esercizio.esercizio2;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class Page extends AbstractBookComponent {
 	private String text;
 	private int numeroPagina;

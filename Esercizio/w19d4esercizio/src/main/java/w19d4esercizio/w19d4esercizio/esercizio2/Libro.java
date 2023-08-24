@@ -64,4 +64,23 @@ public class Libro extends AbstractBookComponent {
 
 	}
 
+	public Page getpaginaByNumero(int numero) {
+		if (sezioni != null) {
+			for (Sezione sezione : sezioni) {
+				if (sezione.getSottoSezioni() != null) {
+					for (SottoSezione sottoSezione : sezione.getSottoSezioni()) {
+						if (sottoSezione.getPages() != null) {
+							for (Page page : sottoSezione.getPages()) {
+								if (page.getNumeroPagina() == numero) {
+									return page;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		return null;
+	}
+
 }
