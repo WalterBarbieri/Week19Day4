@@ -83,7 +83,7 @@ public class CompositeRunner implements CommandLineRunner {
 //		section1.print();
 //		subSection1.print();
 //		subSection2.print();
-		System.out.println("Numero Pagine :" + (numeroPagine - 1));
+		System.out.println("Numero Pagine: " + (numeroPagine - 1));
 
 //		Page pagina = book1.getpaginaByNumero(random.nextInt(numeroPagine - 1));
 //		if (pagina != null) {
